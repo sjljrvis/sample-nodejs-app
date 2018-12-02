@@ -6,7 +6,7 @@ var userName = __dirname.trim()
 
 var server = http.createServer(function (request, response) {
         response.writeHead(200, { 'Content-Type': 'text/plain' })
-        response.end('Hello world !!! \n')
+        response.end('Testing github hook !!! \n')
 });
 
 server.listen(port);
